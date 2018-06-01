@@ -1,0 +1,36 @@
+.col-md-3.a{
+	background-color: gray;
+	height: 40%;
+	font-size: 80px;
+}
+.col-md-4{
+	background-color: gray;
+	height: 40%;
+}
+.col-md-1.a{
+	background-color: gray;
+	height: 40%;
+}
+.col-md-1.b{
+	background-color: gray;
+	height: 40%;
+}
+.col-md-1.c{
+	background-color: gray;
+	height: 40%;
+}
+.col-md-1.d{
+	background-color: gray;
+	height: 40%;
+}
+.col-md-3.b{
+	background-color: yellow;
+	height: 60%;
+}
+.col-md-8{
+	background-color: white;
+	height: 60%;
+}
+img-circle{
+	border-radius: 50px;
+}

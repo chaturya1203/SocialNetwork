@@ -1,0 +1,48 @@
+
+<html>
+<head>
+
+</head>
+<body>
+<input  type="number"  id="number1" placeholder="enter number1">
+<input type="number" id="number2"   placeholder="enter number2" >
+
+<button onclick="calc('+')">add</button>
+<button onclick="calc('-')">sub</button>
+<button onclick="calc('/')">div</button>
+<button onclick="calc('*')">mul</button>
+<p id="result"></p>
+</body>
+<script type="text/javascript">
+
+	function calc(arg)
+	{
+		var a=document.getElementById('number1').value;
+	    var b=document.getElementById('number2').value;
+	if(a.length>0 && b.length>0)
+	{
+	switch(arg)
+	     {
+		case '+': result=(parseInt(a)+parseInt(b));
+		          document.getElementById('result').innerHTML=result;
+				   break;
+	    case '-': result=(parseInt(a)-parseInt(b));
+		         document.getElementById('result').innerHTML=result;
+                  break;
+        case '/': result=(parseInt(a)/parseInt(b));
+		         document.getElementById('result').innerHTML=result;
+                  break;
+        case '*': result=(parseInt(a)*parseInt(b));
+		         document.getElementById('result').innerHTML=result;
+                  break;
+         }
+
+}
+else {
+  alert("not valid");
+}
+
+
+	}
+</script>
+</html>

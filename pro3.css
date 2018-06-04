@@ -1,0 +1,57 @@
+.col-md-7.a{
+	height: 10%;
+	background-color: grey;
+}
+.col-md-2.a{
+	height: 10%;
+	background-color: grey;
+}
+.col-md-1.b{
+	height: 10%;
+	background-color: grey;
+}
+.col-md-2.c{
+	height: 10%;
+	background-color: grey;
+}
+
+.col-md-12.b{
+	height: 60%;
+	background-color: seagreen;
+}
+.col-md-12.c{
+	height: 70%;
+	background-color: white;
+}
+
+.col-md-6.a{
+	height: 40%;
+	background-color: seagreen;
+	color: white;
+	padding-left: 120px;
+}
+.col-md-6.b{
+	height: 40%;
+	background-color: seagreen;
+	color: white;
+	padding-right: 120px;
+}
+.col-md-12.e{
+	height: 65%;
+	background-color: white;
+}
+.col-md-4.a{
+	height: 30%;
+	background-color: grey;
+}
+.col-md-8.f{
+	height: 30%;
+	background-color: grey;
+}
+
+img-circle{
+	border-radius: 50%;
+}
+h1{
+	font-size: 40px;
+}
